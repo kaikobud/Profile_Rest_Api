@@ -4,6 +4,7 @@ from profile_api import views
 
 router = DefaultRouter()
 router.register('profile', views.UserProfileViewSet)
+router.register('feed', views.UserProfileFeedViewSet)
 
 app_name = 'profile_api'
 
